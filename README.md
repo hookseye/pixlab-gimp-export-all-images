@@ -1,3 +1,7 @@
+### I DID NOT MAKE THIS SCRIPT/PLUG-IN.
+### This is based on a post I found on GIMP Forums. Link here: http://gimpchat.com/viewtopic.php?f=9&t=20667
+
+
 # Export All Images As...
 
 ## Purpose.
@@ -19,6 +23,9 @@ be exported ASAP, this script will do the job in a matter of seconds.
 extension, even though it will auto-number each exported image to not match an existing
 name, it’s better that you create a new folder for the exported images.
 
+![default-export-image-as](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/1.png)
+
+
 
 ## 1 - Where to put the script?
 
@@ -34,6 +41,9 @@ Go to the top menu **_GIMP → Preferences_** , a Window opens, then on the left
 
 Example: (I’m on Linux, thus the paths are written differently than the Microsoft’s OS)
 
+![find-scripts-folder-in-gimp](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/2.png)
+
+
 Once you did put the **_pxl-export-all-images-as.scm_** in the scripts folder, you can Refresh all
 scripts directly from GIMP without closing GIMP.
 
@@ -46,6 +56,10 @@ To do so, just go to the top menu **_Filters → Script-Fu → Refresh Scripts_*
 
 In the top menu in GIMP, go to **_File → Export All Images As..._** , a window opens, here you
 go...
+
+![file-menu-export-images-as](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/3.png)
+
+
 
 ## 3 - How to use Export All Images As...?
 
@@ -79,6 +93,9 @@ manual, or a mixed of auto and manual mode.
 ```
 ### The first option [1] Default (fully automated)
 
+![default-option](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/4.png)
+
+
 This option will use **the setting that I did “hard coded” in the script** , it’s the best balance
 between good quality and low file size In My Opinion, at least those setting are the one I
 usually use.
@@ -94,8 +111,14 @@ it looks like from the user interface point of view:
 In the red rectangle are those values and options’ settings I did hard-coded (“Not available” is
 because I don’t have access to those options via the code)
 
+![export-prompt](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/5.png)
+
+
 
 ## The second option [2] Full Control (Manual Mode)
+
+![manual-mode](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/6.png)
+
 
 Each time the script will export an image it will ask you to confirm the settings thru the user
 interface.
@@ -110,6 +133,9 @@ further actions from you.
 
 
 ## The third option [3] Settings From Latest Export per Image
+
+![setting-from-last-export](https://github.com/hookseye/pixlab-gimp-export-all-images/blob/main/images/7.png)
+
 
 This is the “tricky” option, because this option can be fully automated, fully manual or a bit of
 both depending the conditions in the image history.
