@@ -1,4 +1,4 @@
-### I DID NOT MAKE THIS SCRIPT/PLUG-IN.
+### !!! I DID NOT MAKE THIS SCRIPT !!!
 ### This is based on a post I found on GIMP Forums. Link here: http://gimpchat.com/viewtopic.php?f=9&t=20667
 
 
